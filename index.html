@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Basic Page Needs -->
+        <meta charset="utf-8">
+        <title>Brian Picciano - Senior Systems and Backend Programmer - Resume</title>
+        <meta name="description" content="TODO">
+        <meta name="author" content="Brian Picciano">
+
+        <!-- Mobile Specific Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- FONT -->
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <style>
+            .section-tail {
+                padding-bottom: 3%;
+                margin-bottom: 2%;
+                border-bottom: 1px solid #ccc;
+            }
+
+            @media print {
+                * {
+                    font-size: .95em !important;
+                }
+                .container {
+                    width: 90%;
+                }
+                h1 { font-size: 1.2em !important; }
+                h2, h3, h4, h5, h6 { font-size: 1em !important; }
+                .no-print { display: none !important; }
+            }
+        </style>
+
+
+        <!-- Favicon
+            <link rel="icon" type="image/png" href="images/favicon.png">
+        -->
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row no-print" style="margin-top: 1%; color: gray;">
+                <p style="float: right">Last updated: Aug 2018</p>
+                <p><a href="Brian_Picciano-Senior_Systems_and_Backend_Programmer-Resume.pdf">
+                    Download as PDF
+                </a></p>
+            </div>
+
+            <div class="row" style="margin-top: 2%">
+                <h1 style="margin-bottom:0;">Brian Picciano</h1>
+                <h5 style="font-size:2rem;">Senior Systems and Backend Programmer</h5>
+            </div>
+
+            <div class="row section-tail">
+                <div class="four columns">
+                    <a href=".">bgpicciano.com</a><br/>
+                    <a href="mailto:bgpicciano@gmail.com"/>bgpicciano@gmail.com</a><br/>
+                    <a href="https://github.com/mediocregopher"/>github.com/mediocregopher</a><br/>
+                    <a href="https://blog.mediocregopher.com">blog.mediocregopher.com</a><br/>
+                </div>
+                <div class="eight columns">
+                    <p>
+                    8 years of experience across backend systems, databases, and
+                    application development. Passionate about clean code, good
+                    documentation, and open source.
+                    </p>
+                    <p>
+                    <strong>Extensively experienced with:</strong><br/>
+                    Go, Erlang, Lua, Bash, PHP;<br/>
+                    Redis, Mongo, Cassandra/BigTable;<br/>
+                    CentOS/RHEL, Archlinux, GCE.
+                    </p>
+                    <p>
+                    <strong>Moderately experienced with:</strong><br/>
+                    Ruby, Python, C, Javascript;<br/>
+                    ElasticSearch, MySQL/MariaDB;<br/>
+                    Ubuntu/Debian, CoreOS, AWS, Kubernetes/Docker.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row section-tail">
+                <div class="four columns">
+                    <h4>Admiral</h4>
+                    <p>
+                        May 2015 - January 2018<br/>
+                        Co-Founder<br/>
+                        Senior Backend Developer<br/>
+                    </p>
+                    <p>
+                        <a href="https://getadmiral.com">getadmiral.com</a> is a
+                        platform to help publishers analyze and recover revenue
+                        being lost due to adblocking users.
+                    </p>
+                </div>
+                <div class="eight columns">
+                    <ul>
+                        <li>
+                        Wrote a custom analytics platform in Go, using Google
+                        BigTable as backing store and Redis/Mongo as aggregation
+                        caches. Handled a global load of &gt;27 million new rows
+                        an hour, with up-to-the-hour analytics for all
+                        customers.
+                        </li>
+
+                        <li>
+                        Implemented a custom, dc-aware service discovery system
+                        for our microservices based app, using Etcd &amp;
+                        SkyDNS. Included health checking, metrics,
+                        rolling-restarts, and more.
+                        </li>
+
+                        <li>
+                        Designed Go-based framework for implementing
+                        microservices which automatically handled configuration,
+                        logging, health checks, metrics, RPC/service discovery,
+                        and more.
+                        </li>
+
+                        <li>
+                        Implemented an internal RFC process for new product
+                        features and maintained the internal technical
+                        documentation wiki.
+                        </li>
+
+                        <li>
+                        Contributed to designing and implementing the
+                        provisioning/deployment system using Ansible, and began
+                        work on migrating to Kubernetes.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row section-tail" style="">
+                <div class="four columns">
+                    <h4>Grooveshark</h4>
+                    <p>
+                        Senior Systems Engineer (from intern)<br/>
+                        2010 - Apr 2015<br/>
+                    </p>
+                    <p>
+                        Grooveshark was a web-based music streaming site in the
+                        same vein as Spotify.
+                    </p>
+                </div>
+                <div class="eight columns">
+                    <ul>
+                        <li>
+                        Wrote client-to-client communication server in Erlang
+                        (with Redis backend) which served as the backbone of the
+                        Broadcasts feature, where users host their own
+                        radio-like channels, complete with voting, real-time
+                        chat, and moderation.
+                        </li>
+
+                        <li>
+                        Designed and implemented Feeds feature using PHP and
+                        Mongo, where users could see the recent listening
+                        activites of their friends in a Facebook-like feed.
+                        </li>
+
+                        <li>
+                        Wrote and maintained the deployment scripts for frontend
+                        code, and contributed significantly to the Chef-based
+                        provisioning system.
+                        </li>
+
+                        <li>
+                        Initiated and oversaw the migration of frontend devs
+                        from using a shared development server to individual
+                        Vagrant setups.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row section-tail" style="">
+                <div class="four columns">
+                    <h4>Open-Source/Personal Projects</h4>
+                    <p>
+                    <a href="https://github.com/mediocregopher">github.com/mediocregopher</a>
+                    contains all public work. Most of it is throw-away projects,
+                    but here are listed a few which are actively developed and
+                    much loved.
+                    </p>
+                </div>
+                <div class="eight columns">
+                    <ul>
+                        <li>
+                        Author of one of the recommended Redis drivers for Go,
+                        <a href="https://github.com/mediocregopher/radix.v2">radix.v2</a>,
+                        and its much improved sequel,
+                        <a href="https://github.com/mediocregopher/radix.v3">radix.v3</a>.
+                        </li>
+
+                        <li>
+                        Author of
+                        <a href="https://github.com/mediocregopher/mediocre-go-lib">mediocre-go-lib</a>,
+                        a Go framework used for personal projects and similar in
+                        style to the one written for Admiral.
+                        </li>
+
+                        <li>
+                        Main contributor to <a href="https://github.com/mc0/okq">okq</a>,
+                        a simple, fast, and scalable job server written in Go
+                        and backed by Redis. Used at both Grooveshark and
+                        Admiral for extremely high-throughput loads.
+                        </li>
+
+                        <li>
+                        Author of small art projects such as
+                        <a href="https://mediocregopher.com/viz/2">mediocregopher.com/viz</a>
+                        and others featured at
+                        <a href="https://blog.mediocregopher.com">blog.mediocregopher.com</a>,
+                        mostly written in Clojure.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="four columns">
+                    <h4>Outside of work</h4>
+                </div>
+                <div class="eight columns">
+                    <ul>
+                        <li>Rock climber and backpacker.</li>
+                        <li>
+                        Organizer of the
+                        <a href="https://cryptic.house">Dumbathon</a>,
+                        an annual hackathon of sorts.
+                        </li>
+                        <li>Competitive Super Smash Bros. Player.</li>
+                        <li>
+                        Attained 100% completion of Super Meat Boy video game.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
