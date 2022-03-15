@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "SourceCode-Pro";
+    src: url("sorce-code-pro.woff") format('woff');
+}
 
 html {
-    font-family: Helvetica, sans-serif;
+    font-family: "SourceCode-Pro", monospace, sans-serif;
+    background-color: #f2f2f2;
 }
 
 @font-face {
@@ -8,7 +13,72 @@ html {
     src: url("overpass-regular.woff") format('woff');
 }
 
+/*
 h1, h2, h3, h4, h5, h6, .button-primary, .button {
-    font-family: "Overpass", Helvetica;
+    font-family: "Overpass", Helvetica, sans-serif;
+}
+*/
+
+h1 { color: #008700; }
+h2 { color: #0087af; }
+h3 { color: #8700af; }
+
+em {
+    font-style: normal;
+    color: #8700af;
 }
 
+a, a:active {
+    color: #0087af;
+}
+
+.header {
+    font-size: 2rem;
+    line-height: normal;
+    background-color: #005f87;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.header a,a:active {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.header .tab {
+    background-color: #0087af;
+    color: #eeeeee;
+    padding: 0 1rem 1px 1rem;
+    border-right: 1px solid #005f87;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.header .tab.selected {
+    background-color: #e4e4e4;
+    color: #444444;
+}
+
+.container {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.footer {
+    font-size: 2rem;
+    line-height: normal;
+    background-color: #005f87;
+    color: #eeeeee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.footer .scrollpos {
+    float: right;
+    margin-right: 1rem;
+}
