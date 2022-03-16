@@ -20,8 +20,8 @@
         <style>
 
             .section-tail {
-                padding-bottom: 3%;
-                margin-bottom: 2%;
+                padding-bottom: 2rem;
+                margin-bottom: 4rem;
                 border-bottom: 1px solid #ccc;
             }
 
@@ -43,43 +43,52 @@
     <body>
 
         <div class="header">
-          <div class="tab"><a href="index.html">/about-me</a></div><!--
+          <div class="tab"><a href="index.html">/index</a></div><!--
           --><div class="selected tab">/resume</div><!--
           --><div class="tab"><a href="contact.html">/contact</a></div>
+          <div class="x">X</div>
         </div>
 
         <div class="container">
 
-            <div class="row" style="margin-top: 2%">
-                <h1 style="margin-bottom:0;">Brian Picciano</h1>
-                <h5 style="margin-bottom:0;font-size:2rem;">Senior Systems and Backend Programmer</h5>
-                <h5 style="font-size:1.8rem;">University of Florida 2013 · BS Software Engineering · Mathematics Minor</h5>
+            <div class="row">
+                <h1 style="margin-bottom:1rem;">Brian Picciano</h1>
+                <h2 style="margin-bottom:0;font-size:2rem;">Senior Systems and Backend Programmer</h2>
+                <h2 style="font-size:1.8rem;">University of Florida 2013 · BS Software Engineering · Mathematics Minor</h2>
+            </div>
+
+            <div class="row">
+                <div class="four columns">
+                    <p>
+                      <em>10+ years</em> of experience across backend systems,
+                      databases, and application development. Passionate about
+                      clean interfaces, good documentation, and open source.
+                    </p>
+                </div>
+                <div class="eight columns">
+                    <p>
+                      <strong>Extensively experienced with:</strong><br/>
+                      Go, Javascript-HTML-CSS, Nix, Bash, Lua, Clojure, Erlang;<br/>
+                      Redis, Postgres/MariaDB, Cassandra/Scylla, Mongo;<br/>
+                      Nginx, Caddy, Prometheus/Grafana, ELK stack, Ansible, GCE;<br/>
+                      Many flavors of Linux; Docker.
+                    </p>
+                </div>
             </div>
 
             <div class="row section-tail">
                 <div class="four columns">
-                    <a href=".">bgpicciano.com</a><br/>
-                    <a href="mailto:bgpicciano@gmail.com"/>bgpicciano@gmail.com</a><br/>
-                    <a href="https://github.com/mediocregopher"/>github.com/mediocregopher</a><br/>
-                    <a href="https://blog.mediocregopher.com">blog.mediocregopher.com</a><br/>
+                    <p>
+                      <em>5+ years</em> of experience working remotely as a
+                      developer. Well-versed in communicating over slack, zoom,
+                      and email, and in maintaining good working relationships
+                      across large timezone differences.
+                    </p>
                 </div>
                 <div class="eight columns">
                     <p>
-                    8 years of experience across backend systems, databases, and
-                    application development. Passionate about clean code, good
-                    documentation, and open source.
-                    </p>
-                    <p>
-                    <strong>Extensively experienced with:</strong><br/>
-                    Go, Erlang, Lua, Bash, PHP;<br/>
-                    Nginx, Redis, Mongo, Cassandra/BigTable;<br/>
-                    Ansible, ELK stack, CentOS/RHEL, Archlinux, GCE.
-                    </p>
-                    <p>
-                    <strong>Familiar with:</strong><br/>
-                    Ruby, Python, C, Javascript;<br/>
-                    MySQL/MariaDB, Prometheus/Grafana, Chef;<br/>
-                    Ubuntu/Debian, CoreOS, AWS, Kubernetes/Docker.
+                      I also have past experience with many other languages and
+                      tools which I could easily pick back up.
                     </p>
                 </div>
             </div>
@@ -187,47 +196,57 @@
                 </div>
             </div>
 
-            <div class="row section-tail" style="">
+            <div class="row" style="">
                 <div class="four columns">
                     <h4>Open-Source/Personal Projects</h4>
                     <p>
-                    <a href="https://github.com/mediocregopher">github.com/mediocregopher</a>
-                    contains all public work. Most of it is throw-away projects,
-                    but listed here are a few which are actively developed and
-                    much loved.
+                      <a href="https://github.com/mediocregopher">github.com/mediocregopher</a>
+                      contains much of my public work. Most of it is throw-away
+                      projects, but listed here are a few which are actively
+                      developed and much loved.
+                    </p>
+                    <p>
+                      I frequently document the progress of my various projects
+                      on <a href="https://blog.mediocregopher.com">my blog</a>.
                     </p>
                 </div>
                 <div class="eight columns">
-                    <ul>
-                        <li>
-                        Author of one of the recommended Redis drivers for Go,
-                        <a href="https://github.com/mediocregopher/radix.v2">radix.v2</a>,
-                        and its much improved sequel,
-                        <a href="https://github.com/mediocregopher/radix">radix/v3</a>.
-                        </li>
+                  <ul>
 
-                        <li>
-                        Author of
-                        <a href="https://github.com/mediocregopher/mediocre-go-lib">mediocre-go-lib</a>,
-                        a Go framework used for personal projects and similar in
-                        style to the one written for Admiral.
-                        </li>
+                    <li>
+                      Author of one of the recommended Redis drivers for Go,
+                      <a href="https://github.com/mediocregopher/radix">radix</a>.
+                    </li>
 
-                        <li>
-                        Main contributor to <a href="https://github.com/mc0/okq">okq</a>,
-                        a simple, fast, and scalable job server written in Go
-                        and backed by Redis. Used at both Grooveshark and
-                        Admiral for extremely high-throughput loads.
-                        </li>
+                    <li>
+                      Author of one of <a href="https://dehub.dev">dehub</a>, a
+                      git project hosting platform baked into the project's
+                      commit history itself. It's not much used, even by me, but
+                      it's functional and I'm proud of it.
+                    </li>
 
-                        <li>
-                        Author of small art projects such as
-                        <a href="https://blog.mediocregopher.com/2018/11/12/viz-2.html">viz</a>
-                        and others featured at
-                        <a href="https://blog.mediocregopher.com">blog.mediocregopher.com</a>,
-                        mostly written in Clojure.
-                        </li>
-                    </ul>
+                    <li>
+                      Working on an unreleased project, where we are creating
+                      the foundation for community-run cloud infrastructures.
+                    </li>
+
+                    <li>
+                      Long-term work on a toy (so far)
+                      <a href="https://github.com/mediocregopher/ginger">programming language</a>.
+                      You can follow the progress of the language at
+                      <a
+                        href="https://blog.mediocregopher.com/2021/12/31/ginger-its-alive.html">blog.mediocregopher.com</a>.
+                    </li>
+
+                    <li>
+                      Author of small art projects such as
+                      <a href="https://blog.mediocregopher.com/2021/07/01/viz-7.html">viz</a>
+                      and others featured at
+                      <a href="https://blog.mediocregopher.com">blog.mediocregopher.com</a>,
+                      mostly written in Clojure.
+                    </li>
+
+                  </ul>
                 </div>
             </div>
 
